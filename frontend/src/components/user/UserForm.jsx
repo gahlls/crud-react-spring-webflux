@@ -35,11 +35,11 @@ export default props => (
                     <label>Data de nascimento*</label>
                     <br />
                     <span className="erro"> {props.errors.dateBorn}</span>
-                    <input type="datetime-local" className="form-control"
+                    <input type="text" className="form-control"
                         name="dateBorn"
                         value={props.user.dateBorn}
                         onChange={props.updateField}
-                        placeholder="Digite a data de nascimento..." />
+                        placeholder="dd/mm/aaaa" />
                 </div>
             </div>
 
