@@ -3,7 +3,7 @@
 A simple CRUD application with React and Spring Boot Webflux.
 
 # Installation
-Is necessary install java 8, Mongodb and NodeJs. I used Mongodb 3.0.15 and NodeJs 8.10.0 <br />
+Is necessary install java 8, Mongodb and NodeJs. I used Mongodb v3.0.15 and NodeJs v8.10.0 <br />
 
 The project backend is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies.
 
