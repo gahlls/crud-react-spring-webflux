@@ -33,7 +33,6 @@ export default props => (
             <div className="col-12 col-md-6">
                 <div className="form-group">
                     <label>Data de nascimento*</label>
-                    <br />
                     <span className="erro"> {props.errors.dateBorn}</span>
                     <input type="text" className="form-control"
                         name="dateBorn"
